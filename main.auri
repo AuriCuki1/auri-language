@@ -1,0 +1,28 @@
+~ Welcome to my custom Auri language!
+
+[Metadata]
+language = "Auri"
+creator = "AuriCuki1"
+
+[Interactive_Section]
+print "=========================================="
+print " Welcome to the $language programming demo!"
+print " Created by: $creator"
+print "=========================================="
+
+ask "What is your favorite hobby? " -> hobby
+print "That's awesome! $hobby is a great activity."
+
+[Math_Section]
+print "Running some calculations..."
+score = 10
+print "Starting score: $score"
+
+add score 15
+print "After adding points: $score"
+
+sub score 5
+print "After subtracting points: $score"
+
+print "----------------------------------------"
+print "Auri script execution complete!"
